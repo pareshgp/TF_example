@@ -1,6 +1,6 @@
 from keras.preprocessing.text import Tokenizer
 
-sentence = ["John likes to watch movies. Mary likes movies too."]
+sentence = ["Have a great day. Have a good day."]
 
 def print_bow(sentence: str) -> None:
     tokenizer = Tokenizer()
